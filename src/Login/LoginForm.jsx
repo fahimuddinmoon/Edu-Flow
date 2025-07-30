@@ -5,13 +5,13 @@ const LoginForm = () => {
     return (
         <div className='place-content-center m-6 sm:m-0 pb-9 md:pb-2  rounded-lg lg:pb-9 lg:w-[480px] ' >
             <div className='  p-4 lg:p-12  rounded-lg '>
-                <h2 className='flex justify-center items-center gap-2 text-3xl font-semibold mb-4 text-gray-300'><span className="px-4 py-3 bg-[#2C42A7] rounded-full ">ef</span></h2>
+                <h2 className='flex justify-center items-center gap-2  mb-4  text-white'><span className=" p-7 bg-[#2C42A7] rounded-full relative"><span className="absolute text-gray-200 text-5xl font-semibold  bottom-3 left-2">ef</span></span></h2>
 
                 <div>
-                    <h2 className="text-2xl font-bold text-center mb-6">Log In</h2>
+                    <h2 className="text-2xl font-bold text-center my-6">Log In</h2>
                 </div>
                 <Form
-                    className='font-bold m-0 p-0 lg:h-72'
+                    className='font-bold m-0 p-0 lg:h-68'
                     name="validateOnly"
                     layout="vertical"
                     autoComplete="off"
@@ -43,9 +43,9 @@ const LoginForm = () => {
                         </Link>
                     </p>
                     <Form.Item>
-                        <Button className='w-full   py-1 text-white rounded-lg' type="primary" htmlType="submit">
+                        <button className='w-full bg-[#2C42A7]  py-1 text-white rounded-lg' type="primary" htmlType="submit">
                             Log In
-                        </Button>
+                        </button>
                     </Form.Item>
                 </Form>
             </div>

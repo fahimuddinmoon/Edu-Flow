@@ -12,9 +12,9 @@ const LoginPage = () => {
                 backgroundSize: '400px 400px, 400px 400px',
             }}>
             <div className=" py-20  ">
-                <div className='lg:flex lg:justify-center items-center lg:gap-10 shadow bg-white rounded-2xl w-8/12 mx-auto'>
+                <div className='lg:flex lg:justify-around items-center lg:gap-6 shadow bg-white rounded-2xl w-10/12 mx-auto'>
                     <div className='relative'>
-                        <img className='lg:w-[480px] mx-auto bg-white p-4 rounded-2xl' src={pic3} alt="" />
+                        <img className='lg:w-[480px]  bg-white p-4 rounded-2xl' src={pic3} alt="" />
                         <div className='absolute rounded-lg inset-0   z-30 bg-gradient-to-t from-black via-transparent to-transparent  m-4'>
                             <div className="pt-48 sm:pt-96 md:mt-14 lg:mt-6 text-center">
                                 <h3 className= 'text-lg sm:text-2xl  text-white  font-semibold'>Eduflow – Pay with Ease</h3>

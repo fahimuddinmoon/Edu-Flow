@@ -22,9 +22,9 @@ const ResetMobileNo = () => {
 
                         <Form.Item>
                             <Link to='/login/resetPassVerify'>
-                                <Button className='w-full  bg-[#096A62] py-1 mt-8 text-white rounded-lg' type="primary" htmlType="submit">
+                                <button className='w-full  bg-[#2C42A7] py-1 mt-8 text-white rounded-lg' type="primary" htmlType="submit">
                                     Continue
-                                </Button>
+                                </button>
                             </Link>
                         </Form.Item>
                     </Form>

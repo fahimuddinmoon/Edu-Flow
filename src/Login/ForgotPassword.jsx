@@ -37,7 +37,7 @@ const ForgotPassword = () => {
                         </div>
                     </div>
                     <div className="my-5">
-                        <Link onClick={handleSelect} className=' block bg-blue-500 py-1 text-white rounded-lg text-center lg:mr-20' type="primary" htmlType="submit">
+                        <Link onClick={handleSelect} className=' block bg-[#2C42A7] py-1 text-white rounded-lg text-center lg:mr-20' type="primary" htmlType="submit">
                             Continue
                         </Link>
                     </div>

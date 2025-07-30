@@ -45,9 +45,9 @@ const ResetPassVerify = () => {
                 </div>
 
                 <Link to='/login/resetNewPassword'>
-                    <Button type="primary" block className=" text-white font-semibold p-1 mt-12 rounded-xl w-full">
+                    <button type="primary" block className="bg-[#2C42A7] text-white font-semibold p-1 mt-12 rounded-xl w-full">
                         Continue
-                    </Button>
+                    </button>
                 </Link>
             </div>
         </div>
