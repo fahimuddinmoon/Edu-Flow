@@ -17,7 +17,7 @@ const ResetNewPassword = () => {
                     >
                         <Form.Item
                             label="New Password"
-                            name="password"
+                            name="newPassword"
                             className=''
                             rules={[{ required: true, message: 'Required' }]}
                         ><Input.Password placeholder="New Password" />
@@ -25,7 +25,7 @@ const ResetNewPassword = () => {
 
                         <Form.Item
                             label="Confirm Password"
-                            name="password"
+                            name="confirmPassword"
                             className=''
                             rules={[{ required: true, message: 'Required' }]}
                         ><Input.Password placeholder="Confirm Password" />
