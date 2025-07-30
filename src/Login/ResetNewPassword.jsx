@@ -16,19 +16,19 @@ const ResetNewPassword = () => {
                         autoComplete="off"
                     >
                         <Form.Item
-                            label="Password"
+                            label="New Password"
                             name="password"
                             className=''
                             rules={[{ required: true, message: 'Required' }]}
-                        ><Input.Password placeholder="Enter your Password" />
+                        ><Input.Password placeholder="New Password" />
                         </Form.Item>
 
                         <Form.Item
-                            label="Password"
+                            label="Confirm Password"
                             name="password"
                             className=''
                             rules={[{ required: true, message: 'Required' }]}
-                        ><Input.Password placeholder="Enter your Password" />
+                        ><Input.Password placeholder="Confirm Password" />
                         </Form.Item>
 
                         <Form.Item>
